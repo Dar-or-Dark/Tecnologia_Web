@@ -1,0 +1,61 @@
+:root{
+  
+    --fuente: 'Times New Roman', Times, serif;
+}
+
+body {
+   /*background-color: whitesmoke;*/
+  background:url('./image/offensive_security.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-attachment: scroll;
+  background-position: 160px 100px; 
+
+
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  color: cyan;
+}
+a:hover
+{
+  color: white;
+  text-decoration: underline;
+  background: rgb(18, 157, 212);
+  padding: 20px;
+}
+header{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+}
+/* .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%; 
+}*/
+.titulo {
+  font-size: 50px;
+  font-family: var(--fuente);
+  color: black;
+  background: white;
+  float: left;
+
+  }
+  
+.parrafos {
+  width: 500px;
+  color: white;
+  font-family: var(--fuente);
+  font-size: 25px;
+
+}
+
+
+
