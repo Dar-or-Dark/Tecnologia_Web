@@ -3,7 +3,9 @@
 /* * es un comodín que se refiere a todos los elementos. */
 
 /* { margin: 0; box-sizing: border-box; } */
-
+:root{
+    --fuente: 'Times New Roman', Times, serif;
+}
 
 body { 
     font-size: 16px; 
@@ -47,3 +49,7 @@ footer {
 .logo{
     background-position: 100px 200px;
 }
+.fuente{
+    font-family: var(--fuente);
+}
+
