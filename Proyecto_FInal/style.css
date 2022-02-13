@@ -21,6 +21,15 @@ nav{
   display: flex;
   justify-content: flex-end; /*center, space-between, space-around, flex-end*/
 }
+@media (max-width: 600px){
+  nav{
+      background: black;
+      flex-direction: column;
+  }
+  .nav-enlace{
+    margin: 10px 0px;
+  }
+}
 .parrafos {
   background: red;
   color: #f8f3d4;

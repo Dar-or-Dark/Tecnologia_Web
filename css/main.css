@@ -50,11 +50,5 @@ footer {
 .fuente{
     font-family: var(--fuente);
 }
-.prueba{
-    position: absolute;
-    top: 450px;
-    left: 100px;
-    width: 10px;
-    height: 20px;
-  }
+
   
