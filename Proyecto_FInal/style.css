@@ -28,11 +28,12 @@ a:hover
   background: rgb(18, 157, 212);
   padding: 20px;
 }
-header{
+header div{
   background-color: black;
   color: white;
   padding: 20px;
   font-size: 30px;
+  float: right;
 }
 /* .center{
   display: block;
