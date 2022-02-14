@@ -73,7 +73,7 @@ h2{
   /* background: rgb(255, 255, 255); */
 
   width: 20%;
-  margin: 80px 80px 10px;
+  margin: 80px 160px 10px;
 }
 .parrafo2{
   font-size: 25px;
@@ -81,8 +81,15 @@ h2{
   font-family:var(--fuente);
 }
 .cont_vuln{
-  margin: 20px 50px;
+  margin: 20px 120px;
+  background: rgb(255, 255, 255);
 }
+
+.informacion{
+  display: flex; /*Para que los parrafos en cuadros esten a la de otro */
+   margin-left: 3%;
+}
+
 /*   */
  /*background-color: whitesmoke;*/
 
