@@ -8,7 +8,7 @@
   background: rgb(7, 11, 65);
   color: #fff;
   padding: 10px 30px;        /*10px arriba y abajo y 30px izquierda y derecha */
-  font-size: 35px;
+  font-size: 30px;
 }
 .nav-enlace:hover{
   background: rgb(18, 157, 212);
@@ -31,12 +31,13 @@ nav{
   }
 }
 .parrafos {
-  background: rgb(18, 157, 212,0.7);  /*0.8 es la transparencia*/
+  background: #FF0000;  /*0.8 es la transparencia*/
   color: black;
   font-size: 25px;
   padding: 20px;
   width: 35%;
   margin: 10px;
+  border: double black 5px;
 }
 .titulo {
   font-size: 40px;
@@ -59,6 +60,20 @@ body {
    margin-left: 3%;
    text-align: justify;
 }
+.informacion{
+
+}
+h2{
+  color: rgba()0,0,0,0.97;
+  font-size: 50px;
+
+}
+.titulo2{
+  background: rgb(255, 255, 255);
+  width: 20%;
+  margin: 20px 50px;
+}
+
 /*   */
  /*background-color: whitesmoke;*/
 
