@@ -31,7 +31,7 @@ nav{
   }
 }
 .parrafos {
-  background: #FF0000;  /*0.8 es la transparencia*/
+  background: #ffffff;  /*0.8 es la transparencia*/
   color: black;
   font-size: 25px;
   padding: 20px;
@@ -54,6 +54,7 @@ body {
   background-size: 1300px;
   background-attachment: scroll;
   background-position: 160px 100px; 
+  
 }
 .padre{
    display: flex; /*Para que los parrafos en cuadros esten a la de otro */
@@ -69,11 +70,19 @@ h2{
 
 }
 .titulo2{
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255); */
+
   width: 20%;
+  margin: 80px 80px 10px;
+}
+.parrafo2{
+  font-size: 25px;
+  width: 600px;
+  font-family:var(--fuente);
+}
+.cont_vuln{
   margin: 20px 50px;
 }
-
 /*   */
  /*background-color: whitesmoke;*/
 
