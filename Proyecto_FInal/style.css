@@ -57,6 +57,7 @@ body {
 .padre{
    display: flex; /*Para que los parrafos en cuadros esten a la de otro */
    margin-left: 3%;
+   text-align: justify;
 }
 /*   */
  /*background-color: whitesmoke;*/
