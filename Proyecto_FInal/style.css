@@ -2,34 +2,55 @@
   
     --fuente: 'Times New Roman', Times, serif;
 }
-
-.nav-enlace{
-  display: inline-block;
-  background: rgb(7, 11, 65);
-  color: #fff;
-  padding: 10px 30px;        /*10px arriba y abajo y 30px izquierda y derecha */
-  font-size: 30px;
-}
-.nav-enlace:hover{
-  background: rgb(18, 157, 212);
-  color: white;
-  text-decoration: underline;
-}
+/*background: rgb(7, 11, 65) 
+rgb(18, 157, 212)*/
 nav{
-  background: rgb(7, 11, 65);
-  padding: 10px;
+  width: 100%;
   display: flex;
-  justify-content: flex-end; /*center, space-between, space-around, flex-end*/
+  justify-content: flex-end;
+  background-color: rgb(7, 11, 65);
+  padding-left: 2vw;
+  font-size: 20px;
+
 }
-@media (max-width: 600px){
-  nav{
-      background: black;
-      flex-direction: column;
-  }
-  .nav-enlace{
-    margin: 10px 0px;
-  }
+.cont-ul{
+  display: flex;
+  align-items: center;
+
 }
+li{
+  list-style: none;
+  cursor: pointer;
+  padding: 1.5vw;
+  transition: all .3s ease 0s;
+}
+li:hover{
+  background-color: rgb(18, 157, 212);
+  text-decoration: underline;
+  color: white;
+}
+.ul-second{
+  display: none;
+  position: absolute;
+  margin-top: 1.5vw;
+}
+.ul-second > li{
+  width: 250px;
+  transform: translateX(-68px);
+  border-bottom: solid 1px #fff;
+  text-align: center;
+  background-color:  rgb(7, 11, 65);
+
+}
+.ul-second > li:hover{
+  background-color: rgb(18, 157, 212);
+  color: white;
+}
+.develop:hover > .ul-second{
+  display: block;
+  color: white;
+}
+
 .parrafos {
   background: #ffffff;  /*0.8 es la transparencia*/
   color: black;
@@ -73,7 +94,7 @@ h2{
   /* background: rgb(255, 255, 255); */
 
   width: 20%;
-  margin: 80px 160px 10px;
+  margin: 80px 170px 10px;
 }
 .parrafo2{
   font-size: 25px;
@@ -81,12 +102,15 @@ h2{
   font-family:var(--fuente);
 }
 .cont_vuln{
-  margin: 20px 120px;
-  background: rgb(255, 255, 255);
+  margin: 5px 115px 500px;
+  background: rgb(246, 4, 4.0.4);
 }
-
+.img_vuln{
+  margin: 0px 200px 0px;
+  text-align: center;
+}
 .informacion{
-  display: flex; /*Para que los parrafos en cuadros esten a la de otro */
+  display: flex;
    margin-left: 3%;
 }
 
@@ -104,7 +128,7 @@ h2{
   color: white;
 }
 a:visited{
-  color: cyan;
+  color: white;
 }
 /* a:hover
 {
