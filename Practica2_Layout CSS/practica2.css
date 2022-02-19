@@ -6,39 +6,57 @@
 }
 body{
   background: rgb(168, 167, 167);
+  background-repeat: ;
+}
+body img{
+  background-attachment: scroll;
 }
 .contenedor
 {
   background: rgb(219, 198, 198);
-
+  max-width: 1400px;
+  margin: 0px  auto;
 }
 header{
 
 
 }
 nav{
-  width: 70%;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  background-color: rgb(236, 49, 49);
+  justify-content: flex-end;
+  background-color: rgb(26, 171, 190,.4);
 }
+nav ul{
+  float: right;
+  list-style: none; /* Eliminar los circulos de ol, ul*/
+
+
+
+}
+header nav a{
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+}
+
 .cont-ul{
   display: flex;
   align-items: center;
 }
-li{
-  list-style: none; /* Eliminar los circulos de ol, ul*/
-  cursor: pointer;
-  
-}
+
 main img{
-  width: 100%;
+  width: 70%;
+  margin: 20px;
 
 }
 main{
-  width: 70%;
+  width: 100%;
 }
-.prueba img{
-  width: 70%;
 
-}
+.logo{
+    float: right;
+  }
