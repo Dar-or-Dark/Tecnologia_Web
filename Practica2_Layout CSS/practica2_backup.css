@@ -22,55 +22,61 @@ header{
   float: left;
   margin: 10px 200px;
 }
-.menu{
-  background: rgba(73, 73, 73, 0.7);
-  height: 100px;
-  width: 100%;
-}
-.cont-ul { 
+.cont-ul {
+  display: flex;
  /* padding: 1.5vw;  */
-  float: right;
-  margin-right: 20px;
-  
+  font-size: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 200px;
+  padding: 5px;
 }
-
-.cont-ul li{
-  display: inline-block;
-  line-height: 90px;
-  margin: 0 5px;
-
-}
-.cont-ul li a{
-  color: #fff;
-  font-size: 18px;
-  padding: 7px 13px;
-  border-radius: 4px;
-  text-transform: uppercase;
+.cont-ul a{
+  display: block;
+  padding: 0px 20px;
   text-decoration: none;
+  color: #fff;
+  transition: all 500ms ease;
 
 }
-li a.active, li a:hover{
+.cont-ul a:hover{
   background: rgb(18, 157, 212);
-  transition: .5s;
+
+  /* color: #6d6d6d;  */
+}
+li{
+  list-style: none;
+  padding: 1.5vw;
+  line-height: 50px;
+  transition: all 500ms ease;
+}
+li:hover{
   text-decoration: underline;
+
 }
 .ul-second{
   display: none;
   position: absolute;
+
 }
-.ul-second >li a:hover{
-  text-decoration: none;
+.ul-second > li{
+
   transform: translateX(-20px);
-  border-bottom: solid 1px #fff;
+  text-align: center;
+
 }
-.ul-second > li:hover{
-  margin: 0px 15px;
-  transition: .5s;
+.cont-ul .ul-second li a{
+  line-height: 0px;
+
+}
+.ul-second > li:hover {
+   background: rgb(18, 157, 212);  
+   border-bottom: solid 1px #fff;
 }
 .develop:hover > .ul-second{
   display: block;
+  
 }
-
 .contenedor
 {
   background: rgb(228, 228, 228);
@@ -138,9 +144,6 @@ footer{
 }
 .section1 a:visited{
   color: rgb(73, 139, 224);
-}
-.section1{
-  
 }
 @media screen and (max-width:700px)
 {
