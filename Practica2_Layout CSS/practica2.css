@@ -12,6 +12,7 @@ body{
   width: 100%;
   height: 300px;
   background:url("../imagenes/03.jpg");
+  background-attachment: fixed; 
 }
 header{
   width: 100%;
@@ -32,15 +33,17 @@ header nav div img{
 }
 .cont-ul { 
  /* padding: 1.5vw;  */
-  float: right;
-  margin-right: 20px;
+  display: flex;
+  float: right; 
   
 }
 
-.cont-ul li{
+.cont-ul div li{
+  display: flex;
   display: inline-block;
   line-height: 90px;
-  margin: 0 5px;
+ margin: 0 5px; 
+
 
 }
 .cont-ul li a{
@@ -65,10 +68,12 @@ li a.active, li a:hover{
   text-decoration: none;
   transform: translateX(-20px);
   border-bottom: solid 1px #fff;
+  
 }
 .ul-second > li:hover{
   margin: 0px 15px;
   transition: .5s;
+  display: block;
 }
 .develop:hover > .ul-second{
   display: block;
@@ -106,19 +111,19 @@ main{
 
 }
 aside{
-  background:#e9e9e9;
+
   width: 28%;
   /* line-height: 25px; */
   float: right;
   margin: 5px 5px;
   border-radius: 10px;
-  border: 2px solid #000;
-  margin-top: 75px;
+  border: 0px solid #000;
+  margin-top: 87px;
   padding: 10px 10px;
   
 }
 .section1 a{
-    padding: 15px;
+    padding: 10px;
     font: 1.2em;
     text-decoration: none;
     font-size: 18px;
@@ -142,7 +147,7 @@ footer{
 .section1 a h4:hover{
   text-decoration: underline;
   margin: 0px 10px;
-  transition: all 500ms ease;
+  transition: all 150ms ease;
 }
 @media screen and (max-width:700px)
 {
@@ -157,4 +162,16 @@ footer{
   }
 
 }
+article .img_info_security{
+  background:url(../imagenes/informatic_security.jpg);
+  height: 390px;
+  color: #fff;
+  background-attachment: scroll;
+  
+}
+article .contacto h4{
+  display: flex;
 
+  : 100px;
+  font-size: 40px;
+}
