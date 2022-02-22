@@ -169,9 +169,49 @@ article .img_info_security{
   background-attachment: scroll;
   
 }
-article .contacto h4{
-  display: flex;
+/*Formularios*/
+.formulario {
+	width: 70%;
+	margin: 15px auto;
+	padding: 5px;
+	
+}
 
-  : 100px;
-  font-size: 40px;
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  margin: 5px auto;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario textarea{
+  min-height: 120px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.formulario input[type="submit"] {
+	width: 150px;
+	margin: 0 auto;
+	padding: 10px;
+	border:2px solid ;
+  
+	
+	background: none;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 16px;
+}
+.formulario input[type="submit"]:hover {
+	background: #222b20;
+  color: white;
+  font-size: 1.15rem;
+	
 }
