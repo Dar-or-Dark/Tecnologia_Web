@@ -5,8 +5,9 @@
   font-family: 'Monstserrat', sans-serif;
 }
 body{
-  background: rgb(168, 167, 167);
-
+  /* background: rgb(168, 167, 167); */
+  background:url("../Proyecto_Final/image/loading.jpg");
+  background-attachment: fixed;
 }
 .portada{
   width: 100%;
@@ -20,12 +21,12 @@ header{
 }
 
 .logo{
-  float: left;
-  margin: 10px 200px;
+ background:url("../imagenes/ukknownhackers.jpg"); 
+  background: no-repeat;
+  
 }
-header nav div img{
-  border-radius: 25%;
-}
+
+
 .menu{
   background: rgba(73, 73, 73, 0.7);
   height: 100px;
@@ -38,7 +39,7 @@ header nav div img{
   
 }
 
-.cont-ul div li{
+.cont-ul li{
   display: flex;
   display: inline-block;
   line-height: 90px;
