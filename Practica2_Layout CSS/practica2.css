@@ -6,7 +6,7 @@
 }
 body{
   /* background: rgb(168, 167, 167); */
-  background:url("../Proyecto_Final/image/loading.jpg");
+  background:url("../imagenes/loading.jpg");
   background-attachment: fixed;
 }
 .portada{
