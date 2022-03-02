@@ -5,11 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="practica3.js"></script>
+  <link rel="stylesheet" href="practica3.css">
   <title>Practica 3</title>
 </head>
 <body>
   <h2>1. Desarrolle una función en JavaScript que permita leer una temperatura
     en grados Celsius y devuelva el clima según la siguiente tabla:</h2>
+    <p>Temperatura Clima</p>
+    <p>-10 °C – 15 °C Frio</p>
+    <p>16°C – 25 °C Templado</p>
+    <p>26°C – 40 °C Calor </p>
     <div class="Container">
       <form action="">
         <p>Ingrese la temperatura en Grados Celsius</p>
@@ -54,7 +59,7 @@
     <div class="Container">
       <p>Fecha</p>
       <input id="fecha" type="text" readonly>
-      <input type="button" name="enviar" class="btn" onclick="Fecha()" value="Fecha Actual">
+      <input type="button" class="btn" onclick="Fecha()" value="Fecha Actual">
     </div>
 </body>
 </html>

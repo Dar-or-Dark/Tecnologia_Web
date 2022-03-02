@@ -7,25 +7,26 @@
 }
 
 body {
-	font-family: Arial, Sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	background: #373a44;
 	color: #7c74c0;
 	
 }
 
-.contenedor {
+.Container {
 	width: 400px;
 	margin: 20px;
-	background: #646968;
-	padding: 20px;
+	background: #999999;
 	margin-left: 50px;	
+  padding: 20px;
 	
 }
 
-form p {
-	text-align: center;
+body p {
+  margin-left: 50px;
 	margin-bottom: 20px;
 	font-size: 30px;
+  
 }
 
 input[type="text"]{
@@ -37,27 +38,17 @@ input[type="text"]{
 
 form .btn {
 	width: 100%;
-	background: #2f186d;
-	color: #fff;
-	border:none;
-	cursor: pointer;
+	background: #83d11d;
 	font-size: 16px;
 	text-align: center;
 	padding: 20px;
-	display: inline-block;
-	text-decoration: none;
 }
-h1{
-	text-align: center;
-	margin-top: 20px;
-	font-size: 50px;
-	font-family: cursive;
+form .btn:hover{
+  background-color: aqua;
 }
+
+
 h2{
 	margin-left: 50px;	
 	font-size: 30px;
-}
-.subti{
-	font-size: 30px;
-	color: rgb(22, 10, 54);
 }
