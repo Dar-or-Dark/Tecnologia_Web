@@ -8,8 +8,8 @@
 
 body {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background: #373a44;
-	color: #7c74c0;
+	background: #122974;
+	color: #ffffff;
 	
 }
 
@@ -46,8 +46,6 @@ form .btn {
 form .btn:hover{
   background-color: aqua;
 }
-
-
 h2{
 	margin-left: 50px;	
 	font-size: 30px;
