@@ -39,9 +39,9 @@ function factorial()
 //Ejercicio_3
 function fizzbuzz()
 {
-  var cont = document.getElementById('contador').value;
+  var cont = parseInt(document.getElementById('contador').value);
   var valor = "";
-  for(var i=1; i<=N; i++)
+  for(var i=1; i<=cont; i++)
   {
     
     if(( i % 3 === 0) && ( i % 5 ===0))
@@ -56,7 +56,7 @@ function fizzbuzz()
         {
          valor += "BUZZ";
         }
-         valor +=  i;
+         valor += i + ", ";
   }
   document.getElementById('FizzBuzz').value = valor;
 }
