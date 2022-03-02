@@ -46,13 +46,36 @@ function fizzbuzz()
     }
     else if( i % 3 === 0)
       {
-        valor += "FIZZ"
+        valor += "FIZZ";
       }
       else if( i % 5 === 0)
         {
          valor += "BUZZ"
         }
-         valor +=  i + '<br>';
+         valor +=  i;
   }
   document.getElementById('FizzBuzz').value = valor;
+}
+//Ejercicio4
+function Fecha()
+{
+  var fecha = new Date();
+  var diasemana = fecha.getDay();
+  var dia = fecha.getDate();
+  var mes = fecha.getMonth();
+  var año = fecha.getFullYear();
+  var semana = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+  var meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+
+  var Dia_semana = document.getElementById('fecha');
+  var Dia = document.getElementById('fecha');
+  var Mes = document.getElementById('fecha');
+  var Año = document.getElementById('fecha');
+
+  Dia_semana = semana[diasemana];
+  Dia = dia;
+  Mes = meses[mes];
+  Año = año;
+  var resul = Dia_semana + ", " + Dia + " de " + Mes + " del " + Año;
+  document.getElementById('fecha').value = resul;
 }
