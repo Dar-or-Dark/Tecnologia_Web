@@ -17,6 +17,10 @@ function temperatura()
       {
         resul= "Calor !!";
       }
+       else if (valor1 > 40)
+      {
+        resul= "Demaciada Caloor !!";
+      }
       document.getElementById('clima').value=resul;
 
 }
@@ -25,12 +29,12 @@ function temperatura()
 function factorial()
 {
   var n = document.getElementById('N').value;
-  resul = 1;
+  total = 1;
   for(var i = 1; i <= n; i++)
   {
-    resul = resul * i;
+    total = total * i;
   }
-  document.getElementById('resultado').value = resul
+  document.getElementById('resultado').value = total
 }
 //Ejercicio_3
 function fizzbuzz()
@@ -50,7 +54,7 @@ function fizzbuzz()
       }
       else if( i % 5 === 0)
         {
-         valor += "BUZZ"
+         valor += "BUZZ";
         }
          valor +=  i;
   }
